@@ -1,0 +1,1148 @@
+/* =========================================
+   RESPONSIVE CSS — HOME PAGE
+   ========================================= */
+
+/* ---------- LARGE TABLETS (max-width: 1024px) ---------- */
+@media (max-width: 1024px) {
+
+    /* HERO */
+    .hero-left, .hero-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-left h1 {
+        font-size: 30px;
+    }
+
+    .hero-left p {
+        font-size: 16px;
+    }
+
+    .hero-right {
+        margin-top: 25px;
+    }
+
+    /* SERVICES — from 4 columns → 2 */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 230px;
+    }
+
+    /* WHY CHOOSE US */
+    .why-choose-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .why-content ul li {
+        font-size: 15px;
+    }
+
+    /* PACKAGE wrapper */
+    .packages-wrapper {
+        width: 90%;
+    }
+
+    /* FEEDBACK — 3 → 2 columns */
+    .feedback-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* FOOTER */
+    .footer-box {
+        width: 45%;
+    }
+}
+
+/* ---------- TABLETS (max-width: 768px) ---------- */
+@media (max-width: 768px) {
+
+    /* GENERAL */
+    .container {
+        width: 95%;
+    }
+
+    /* NAV MENU collapses */
+    .menu {
+        gap: 15px;
+    }
+
+    /* HERO */
+    .hero-left h1 {
+        font-size: 26px;
+    }
+
+    .hero-left p {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    /* SERVICES — increase row height */
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+        gap: 12px;
+    }
+
+    /* WHY CHOOSE US */
+    .why-image img {
+        max-width: 350px;
+    }
+
+    .why-content h2 {
+        font-size: 24px;
+    }
+
+    /* PACKAGE CARD */
+    .package-card {
+        padding: 25px;
+    }
+
+    .package-card h3 {
+        font-size: 20px;
+    }
+
+    /* FEEDBACK — 2 columns */
+    .feedback-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    /* FOOTER */
+    .footer-box {
+        width: 48%;
+    }
+}
+
+/* ---------- MOBILE (max-width: 576px) ---------- */
+@media (max-width: 576px) {
+
+    /* HERO */
+    .hero {
+        padding: 35px 0;
+    }
+
+    .hero-left h1 {
+        font-size: 22px;
+    }
+
+    .hero-left p {
+        font-size: 14px;
+    }
+
+    /* SERVICES — 1 column */
+    .services-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 220px;
+    }
+
+    /* WHY CHOOSE US */
+    .why-content h2 {
+        font-size: 20px;
+    }
+
+    .why-content ul li {
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    /* SIDE IMAGES in PACKAGE */
+    .side-img {
+        display: none;
+    }
+
+    /* PACKAGES */
+    .packages-wrapper {
+        width: 100%;
+    }
+
+    .package-card {
+        padding: 18px;
+    }
+
+    .package-card h3 {
+        font-size: 18px;
+    }
+
+    /* FEEDBACK — 1 column */
+    .feedback-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* FOOTER */
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-box {
+        width: 100%;
+    }
+
+    .social-row a {
+        font-size: 18px;
+    }
+}
+
+/* ---------- SMALL PHONES (max-width: 430px) ---------- */
+/* @media (max-width: 430px) { */
+
+    /* Extra small typography adjustments */
+    /* .hero-left h1 {
+        font-size: 20px;
+    }
+
+    .btn {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+
+    .why-content ul li {
+        font-size: 13px;
+    }
+
+    .package-card h3 {
+        font-size: 17px;
+    }
+
+    .feedback-card {
+        padding: 15px;
+    }
+} */
+
+
+/* Service Page */
+/* =========================================
+   SERVICE PAGE — RESPONSIVE CSS
+   ========================================= */
+
+/* ----------- Large Tablets (max-width: 1024px) ----------- */
+@media (max-width: 1024px) {
+
+    .services-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .service-card-page img {
+        height: 210px;
+    }
+
+    .service-card-page h3 {
+        font-size: 18px;
+    }
+
+    .service-card-page p {
+        font-size: 14px;
+    }
+}
+
+/* ----------- Tablets (max-width: 768px) ----------- */
+@media (max-width: 768px) {
+
+    .page-heading h1 {
+        font-size: 24px;
+    }
+
+    .services-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    .service-card-page {
+        padding: 12px;
+    }
+
+    .service-card-page img {
+        height: 190px;
+    }
+
+    .service-card-page h3 {
+        font-size: 17px;
+    }
+
+    .service-card-page p {
+        font-size: 13px;
+        padding: 0 5px;
+    }
+
+    .service-btn {
+        padding: 9px 20px;
+        font-size: 14px;
+    }
+}
+
+/* ----------- Mobile (max-width: 576px) ----------- */
+@media (max-width: 576px) {
+
+    .page-heading h1 {
+        font-size: 22px;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .service-card-page img {
+        height: 200px;
+    }
+
+    .service-card-page {
+        padding: 10px;
+    }
+
+    .service-card-page h3 {
+        font-size: 16px;
+    }
+
+    .service-card-page p {
+        font-size: 13px;
+    }
+
+    .service-btn {
+        padding: 8px 18px;
+        font-size: 13px;
+    }
+}
+
+/* ----------- Small Phones (max-width: 430px) ----------- */
+@media (max-width: 430px) {
+
+    .page-heading h1 {
+        font-size: 20px;
+    }
+
+    .service-card-page img {
+        height: 180px;
+    }
+
+    .service-card-page h3 {
+        font-size: 15px;
+    }
+
+    .service-btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}
+
+
+/* Bridal Package */
+/* =========================================
+   RESPONSIVE — BRIDAL PACKAGE PAGE
+========================================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+    .package-tabs {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .package-item {
+        grid-template-columns: 100px 1fr 100px 100px;
+        gap: 15px;
+    }
+
+    .package-item img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Mobile Large */
+@media (max-width: 768px) {
+
+    .package-tabs {
+        gap: 15px;
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    .package-item {
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: auto auto;
+        text-align: left;
+        padding: 12px 0;
+    }
+
+    .package-info,
+    .book-btn {
+        justify-self: start;
+        margin-top: 10px;
+    }
+
+    .book-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile Small */
+@media (max-width: 576px) {
+
+    .package-tabs {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .package-item {
+        grid-template-columns: 80px 1fr;
+        gap: 12px;
+        padding: 12px 0;
+    }
+
+    .package-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .package-content h3 {
+        font-size: 16px;
+    }
+
+    .package-content p {
+        font-size: 13px;
+    }
+
+    .package-info {
+        font-size: 14px;
+    }
+
+    .book-btn {
+        padding: 8px 14px;
+    }
+}
+
+/* Extra Small Phones */
+@media (max-width: 430px) {
+
+    .package-item {
+        grid-template-columns: 70px 1fr;
+    }
+
+    .package-item img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .package-content h3 {
+        font-size: 15px;
+    }
+
+    .package-content p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+/* ScheduleYourService */
+/* ===========================
+   RESPONSIVE DESIGN
+   Schedule Your Service Page
+   =========================== */
+
+/* ----------- Tablets (max 992px) ----------- */
+@media (max-width: 992px) {
+
+    .schedule-container {
+        padding: 35px;
+        width: 95%;
+    }
+
+    .schedule-grid {
+        grid-template-columns: 1fr 1fr;  /* 2 columns */
+        gap: 25px;
+    }
+
+    .empty-box {
+        min-height: 80px;
+    }
+
+    .schedule-heading {
+        font-size: 15px;
+    }
+
+    .schedule-content p {
+        font-size: 13px;
+    }
+}
+
+/* ----------- Mobile Large (max 768px) ----------- */
+@media (max-width: 768px) {
+
+    .schedule-container {
+        padding: 30px;
+    }
+
+    .schedule-title {
+        font-size: 22px;
+    }
+
+    .schedule-subtitle {
+        font-size: 14px;
+    }
+
+    .schedule-grid {
+        grid-template-columns: 1fr; /* Single Column */
+        gap: 20px;
+    }
+
+    .schedule-heading {
+        font-size: 15px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+/* ----------- Mobile Small (max 480px) ----------- */
+@media (max-width: 480px) {
+
+    .schedule-container {
+        padding: 20px;
+    }
+
+    .schedule-title {
+        font-size: 20px;
+    }
+
+    .schedule-subtitle {
+        font-size: 13px;
+    }
+
+    .schedule-heading {
+        font-size: 14px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px;
+        font-size: 13px;
+        width: 100%;
+    }
+}
+
+
+/* Availability */
+/* ===========================
+   RESPONSIVE – Availability Page
+   =========================== */
+
+/* Tablets */
+@media (max-width: 992px) {
+
+    .schedule-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .section-card {
+        padding: 20px;
+    }
+
+    .date-input {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .schedule-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .calendar-img-box img {
+        width: 100%;
+    }
+
+    .time-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .book-btn {
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    .page-title {
+        font-size: 22px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .time-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .time-grid button {
+        width: 100%;
+    }
+}
+
+
+/* Form Page */
+/* ===========================
+   FORM PAGE RESPONSIVE CSS
+   =========================== */
+
+/* --- Large Tablets (max-width: 1024px) --- */
+@media (max-width: 1024px) {
+    .booking-wrapper {
+        padding: 30px 20px;
+    }
+
+    .booking-grid {
+        grid-template-columns: 1.5fr 1fr;
+        gap: 25px;
+    }
+
+    .booking-summary {
+        padding: 15px;
+    }
+}
+
+/* --- Tablets (max-width: 768px) --- */
+@media (max-width: 768px) {
+
+    .booking-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .booking-summary {
+        border-left: none;
+        border-top: 1px solid #ccc;
+        padding-top: 25px;
+    }
+
+    .phone-row {
+        flex-direction: column;
+    }
+
+    .phone-row select {
+        width: 100%;
+    }
+}
+
+/* --- Mobile Phones (max-width: 576px) --- */
+@media (max-width: 576px) {
+
+    .booking-wrapper {
+        padding: 20px 15px;
+    }
+
+    .notice-box {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .booking-form input,
+    .booking-form textarea,
+    .booking-form select {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    textarea {
+        height: 90px;
+    }
+
+    .booking-summary h3 {
+        font-size: 18px;
+    }
+
+    .purple-btn {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+/* --- Very Small Phones (max-width: 400px) --- */
+@media (max-width: 400px) {
+    .phone-row {
+        gap: 5px;
+    }
+
+    .booking-form label {
+        font-size: 14px;
+    }
+
+    .notice-box {
+        font-size: 13px;
+    }
+
+    .purple-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+
+/* Portfolio CSS */
+/* Medium screens – Tablets (≤ 992px) */
+@media (max-width: 992px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .portfolio-grid img {
+        height: 240px;
+    }
+}
+
+/* Small screens – Large Mobiles (≤ 768px) */
+@media (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .portfolio-grid img {
+        height: 210px;
+    }
+}
+
+/* Extra small screens – Mobiles (≤ 576px) */
+@media (max-width: 576px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .portfolio-grid img {
+        height: 220px;
+    }
+}
+
+/* Very small screens (≤ 400px) */
+@media (max-width: 400px) {
+    .portfolio-grid img {
+        height: 200px;
+    }
+}
+
+
+/* ===========================
+   ABOUT US – RESPONSIVE DESIGN
+   =========================== */
+
+/* Tablet (below 992px) */
+@media (max-width: 992px) {
+
+    .about-container {
+        flex-direction: column;
+        padding: 30px 40px;
+        margin: 50px 40px;
+    }
+
+    .about-text {
+        text-align: center;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .about-image img {
+        max-width: 350px;
+        margin-top: 20px;
+    }
+
+    /* Advisory Section */
+    .advisory-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .advisor-text p {
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+}
+
+/* Small Tablets (below 768px) */
+@media (max-width: 768px) {
+
+    .about-title {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+
+    .about-container {
+        padding: 25px;
+        margin: 40px 20px;
+    }
+
+    .about-text {
+        font-size: 15px;
+    }
+
+    .advisory-section {
+        padding: 40px 20px;
+    }
+
+    .advisor-photo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .advisor-photo h4 {
+        font-size: 18px;
+    }
+}
+
+/* Mobile (below 576px) */
+@media (max-width: 576px) {
+
+    .about-title {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    .about-container {
+        padding: 20px;
+        margin: 20px 10px;
+        border-width: 3px;
+    }
+
+    .about-text {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .about-image img {
+        max-width: 280px;
+    }
+
+    .advisory-section {
+        padding: 30px 10px;
+    }
+
+    .advisor-photo img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .advisor-photo h4 {
+        font-size: 16px;
+    }
+
+    .advisor-photo p {
+        font-size: 13px;
+    }
+}
+
+
+/* Contact Page */
+/* ==============================
+   RESPONSIVE MEDIA QUERIES
+   ============================== */
+
+/* 📌 TABLET VIEW (Screen ≤ 992px) */
+@media (max-width: 992px) {
+
+    /* Pink Box Columns stack */
+    .contact-top-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-column {
+        margin-bottom: 20px;
+    }
+
+    /* Contact Form + Map stack vertically */
+    .reach-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reach-form {
+        width: 100%;
+    }
+
+    .map-box img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .half-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+/* 📌 MOBILE VIEW (Screen ≤ 576px) */
+@media (max-width: 576px) {
+
+    .contact-title {
+        font-size: 22px;
+    }
+
+    .contact-top-box {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .contact-column h3 {
+        font-size: 18px;
+    }
+
+    .contact-column p {
+        font-size: 14px;
+    }
+
+    .social-icons i {
+        font-size: 18px;
+        margin-right: 8px;
+    }
+
+    .reach-title {
+        font-size: 22px;
+    }
+
+    .reach-container {
+        width: 95%;
+    }
+
+    .reach-form label {
+        font-size: 14px;
+    }
+
+    .reach-form input,
+    .reach-form textarea {
+        font-size: 14px;
+    }
+
+    .send-button {
+        width: 100%;
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .map-box img {
+        width: 100%;
+        border-radius: 8px;
+    }
+}
+
+/* Sign UP Page */
+/* ===========================
+   RESPONSIVE MEDIA QUERIES
+   LOGIN / SIGNUP PAGE
+   =========================== */
+
+/* TABLETS - max 992px */
+@media (max-width: 992px) {
+    .signup-wrapper {
+        padding: 40px 15px;
+    }
+
+    .signup-wrapper h1 {
+        font-size: 28px;
+    }
+
+    .signup-form {
+        width: 80%;
+    }
+}
+
+/* MOBILE - max 768px */
+@media (max-width: 768px) {
+    .signup-wrapper h1 {
+        font-size: 26px;
+    }
+
+    .member-text {
+        font-size: 14px;
+    }
+
+    .signup-form {
+        width: 90%;
+    }
+
+    .captcha-box {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .signup-btn {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+
+    .social-login i {
+        font-size: 24px;
+    }
+}
+
+/* SMALL MOBILE - max 480px */
+@media (max-width: 480px) {
+    .signup-wrapper {
+        padding: 35px 10px;
+    }
+
+    .signup-wrapper h1 {
+        font-size: 22px;
+    }
+
+    .signup-form {
+        width: 100%;
+    }
+
+    .captcha-box {
+        padding: 8px;
+        flex-direction: row;
+    }
+
+    .captcha-checkbox {
+        width: 18px;
+        height: 18px;
+    }
+
+    .divider {
+        gap: 10px;
+    }
+
+    .line {
+        width: 22%;
+    }
+
+    .social-login {
+        gap: 15px;
+    }
+
+    .social-login i {
+        font-size: 22px;
+    }
+}
+
+
+/* Login Page */
+/* -------------------------------------- */
+/* RESPONSIVE LOGIN PAGE */
+/* -------------------------------------- */
+
+/* Large Tablets (max-width: 992px) */
+@media (max-width: 992px) {
+    .auth-container {
+        width: 320px;
+    }
+
+    .auth-container h1 {
+        font-size: 28px;
+    }
+
+    .switch-text {
+        font-size: 15px;
+    }
+}
+
+/* Tablets & Mid Screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .auth-container {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .auth-form input {
+        font-size: 15px;
+    }
+
+    .auth-btn {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .social-login img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/* Mobile Phones (max-width: 576px) */
+@media (max-width: 576px) {
+    .auth-section {
+        padding: 40px 0;
+    }
+
+    .auth-container h1 {
+        font-size: 26px;
+    }
+
+    .switch-text {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .auth-form label {
+        font-size: 13px;
+    }
+
+    .auth-form input {
+        font-size: 14px;
+        padding: 6px 0;
+    }
+
+    .forgot {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .divider-box {
+        margin: 20px 0;
+    }
+
+    .or-text {
+        font-size: 13px;
+    }
+
+    .social-login img {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+/* Small Mobile (max-width: 400px) */
+@media (max-width: 400px) {
+    .auth-container h1 {
+        font-size: 22px;
+    }
+
+    .switch-text {
+        font-size: 13px;
+    }
+
+    .auth-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .line {
+        height: 1px;
+    }
+}
